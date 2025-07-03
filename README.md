@@ -15,9 +15,7 @@ A responsive and aesthetic clone of the popular Jive webpage, built using **HTML
 - CSS3
 - Responsive Design
 
-## 📸 Preview
 
-<!-- ![Screenshot](./images/screenshot.png) Replace with your actual image path if you want to include a preview -->
 
 ## 📝 Features
 
