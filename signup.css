@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-width: thin;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction:row;
+}
+
+.media1{
+    background-image: url(./login/asset\ 2.svg);
+    width: 100%;
+    height: 100vh;
+    background-position: left top;
+    background-size:450px;
+    background-repeat:no-repeat;
+
+
+}
+
+.media2{
+    background-image: url(./login/asset\ 3.svg);
+    width: 100%;
+    height: 100vh;
+    background-position: right top;
+    background-size: 450px;
+    background-repeat: no-repeat;
+}
+
+.section{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo{
+    display: flex;
+    width: 100%;
+    margin-left: 175px;
+}
+
+.logo img{
+    width: 80px ;
+    margin-top: 25px;
+}
+
+.logo img:hover{
+    content: url(./login/asset\ 1.svg);
+    cursor: pointer;
+}
+
+.create{
+    margin-top:40px ;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.main{
+    /* margin: 20px; */
+    width: 100%;
+}
+
+.detail{
+    display: flex;
+    text-align: start;
+    gap: 20px;
+}
+
+.detail p{
+    display: block;
+    font-size: 1rem;
+}
+
+.detail p label{
+    display: block;
+    margin-top: 25px;
+    text-align: start;
+    font-weight: 550;
+}
+
+.detail p input{
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+    padding: 15px;
+    background-color: rgb(236, 244, 245);
+    border: 2px solid rgb(234, 221, 221);
+    border-radius: 0.5rem;
+    border-width: 1px;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+.login-body p{
+    display: block;
+    font-size: 1rem;
+    margin: 11px 0;
+}
+
+.login-body p label{
+    display: block;
+    margin-top: 25px;
+    text-align: start;
+    font-weight: 550;
+}
+
+.login-body p input{
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+    padding: 15px;
+    background-color: rgb(236, 244, 245);
+    border: 2px solid rgb(234, 221, 221);
+    border-radius: 0.5rem;
+    border-width: 1px;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+
+.checkbox{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-top: 30px;
+}
+
+.checkbox p{
+    color: rgb(166, 160, 160);
+}
+.checkbox input{
+    width: 1.25rem;
+}
+
+.checkbox a{
+    text-decoration: none;
+    color: rgb(130, 119, 119);
+    font-weight: bold;
+}
+
+.checkbox a:hover{
+    color: rgb(107, 216, 107);
+}
+
+.signup{
+    margin-top: 30px;
+    width: 100%;
+}
+.signup a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 1.5rem;
+    border: 1px solid black;
+    border-radius:9999px;
+    border-width: 1px;
+    color: white;
+    background-color: black;
+    padding: 0.7rem 7rem;
+}
+
+.signup a:hover{
+    background-color: rgb(19, 148, 199);
+}
+
+.google{
+    display: flex;
+    flex-direction: row;
+    margin-top:50px ;
+    gap: 10px;
+    border: 1px solid black;
+    border: none;
+    cursor: pointer;    
+    /* background-color: rgb(234, 241, 244); */
+}
+
+.google p{
+    display: block;
+}
+.google img{
+    width: 20px;
+}
+
+.footer{
+    margin-top: 40px;
+    color: rgb(155, 149, 149);
+}
+
+.footer a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+
+.footer a:hover{
+    color: rgb(151, 151, 239);
+}

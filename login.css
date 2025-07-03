@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-width: thin;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction:row;
+}
+
+.media1{
+    background-image: url(./login/asset\ 2.svg);
+    width: 100%;
+    height: 100vh;
+    background-position: left top;
+    background-size:450px;
+    background-repeat:no-repeat;
+
+
+}
+
+.media2{
+    background-image: url(./login/asset\ 3.svg);
+    width: 100%;
+    height: 100vh;
+    background-position: right top;
+    background-size: 450px;
+    background-repeat: no-repeat;
+}
+
+.section{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo{
+    display: flex;
+    width: 100%;
+    margin-left: 175px;
+}
+
+.logo img{
+    width: 80px ;
+    margin-top: 80px;
+}
+
+.logo img:hover{
+    content: url(./login/asset\ 1.svg);
+    cursor: pointer;
+}
+
+.welcome p{
+    font-size: 1.5rem;
+    width: 100%;
+    margin-top: 45px;
+    font-weight: bold;
+    padding-right: 20px;
+    margin-left: 15px;
+}
+
+.login-body {
+    margin: 2px;
+}
+
+.login-body p{
+    display: block;
+    font-size: 1rem;
+    margin: 11px 0;
+}
+
+.login-body p label{
+    display: block;
+    margin-top: 25px;
+    text-align: start;
+    font-weight: 550;
+}
+
+.login-body p input{
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+    padding: 15px;
+    background-color: rgb(236, 244, 245);
+    border: 2px solid rgb(234, 221, 221);
+    border-radius: 0.5rem;
+    border-width: 1px;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+
+.links{
+    margin: 30px;
+    width: 100%;
+    text-align: start;
+
+}
+
+
+.signin a{
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 2rem;
+    border: 1px solid black;
+    border-radius:9999px;
+    text-decoration: none;
+    display: inline-block;
+    border-width: 1px;
+    color: white;
+    background-color: black;
+    padding:0.7rem 9.5rem 0.7rem 9.5rem;
+    /* justify-content: space-around; */
+}
+
+.signin a:hover{
+    background-color: rgb(218, 185, 185);
+}
+.google{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    border: 1px solid black;
+    border: none;
+    cursor: pointer;    
+    /* background-color: rgb(234, 241, 244); */
+}
+
+.google p{
+    display: block;
+}
+.google img{
+    width: 20px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.footer p{
+    color: rgb(144, 150, 144);
+}
+
+.footer a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+.footer a:hover{
+    color:rgb(170, 163, 163);
+}
+
+.end{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 35px;
+    gap: 10px;
+}
+
+.end a{
+    display: inline-block;
+    color: rgb(75, 25, 25);
+    text-decoration: none;
+}
