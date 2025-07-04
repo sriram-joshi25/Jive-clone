@@ -173,3 +173,31 @@ body{
     color: rgb(75, 25, 25);
     text-decoration: none;
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .media1,
+  .media2 {
+    height: 200px;
+    background-size: contain;
+  }
+
+  .logo {
+    margin-left: 0;
+    justify-content: center;
+  }
+
+  .signin a {
+    padding: 0.7rem 3rem;
+    font-size: 1rem;
+  }
+
+  .footer,
+  .end {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

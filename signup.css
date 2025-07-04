@@ -201,3 +201,34 @@ body{
 .footer a:hover{
     color: rgb(151, 151, 239);
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .media1,
+  .media2 {
+    height: 200px;
+    background-size: contain;
+  }
+
+  .logo {
+    margin-left: 0;
+    justify-content: center;
+  }
+
+  .detail {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .signup a {
+    padding: 0.7rem 3rem;
+    font-size: 1rem;
+  }
+
+  .footer {
+    text-align: center;
+  }
+}
