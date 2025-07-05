@@ -311,113 +311,16 @@ a{
     color: rgb(175, 186, 175);
 }
 
-@media screen and (max-width: 768px) {
-  .con {
-    flex-direction: column;
-    gap: 20px;
-    align-items: center;
-  }
+@media screen and (max-width:768px) {
 
-  .logo img {
-    margin-left: 0;
-  }
-
-  .links {
-    flex-direction: column;
-    margin: 0;
-    align-items: center;
-  }
-
-  .hero h1 {
-    font-size: 2.5rem;
-    margin: 0 20px;
-  }
-
-  .hero p {
-    margin: 0 20px;
-    font-size: 1rem;
-  }
-
-  .hero img {
+  .container{
+    background-image: url(./images/bg1.svg);
     width: 100%;
-    margin-top: 50px;
-  }
+    height: 250 vh;
+    background-size: cover;
+    background-position: center;
 
-  .steps {
-    flex-direction: column;
-    margin: 20px;
-  }
-
-  .footer {
-    margin-top: 80px;
-  }
-
-  .bottom {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .end {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
 }
-
-@media screen and (max-width: 768px) {
-  .con {
-    flex-direction: column;
-    gap: 20px;
-    align-items: center;
-  }
-
-  .logo img {
-    margin-left: 0;
-  }
-
-  .links {
-    flex-direction: column;
-    margin: 0;
-    align-items: center;
-  }
-
-  .hero h1 {
-    font-size: 2.5rem;
-    margin: 0 20px;
-  }
-
-  .hero p {
-    margin: 0 20px;
-    font-size: 1rem;
-  }
-
-  .hero img {
-    width: 100%;
-    margin-top: 50px;
-  }
-
-  .steps {
-    flex-direction: column;
-    margin: 20px;
-  }
-
-  .footer {
-    margin-top: 80px;
-  }
-
-  .bottom {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .end {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-}
-
-@media screen and (max-width: 768px) {
   .con {
     flex-direction: column;
     gap: 20px;
@@ -471,6 +374,16 @@ a{
 }
 
 @media screen and (max-width: 480px) {
+
+   .container{
+    background-image: url(./images/bg1.svg);
+    width: 100%;
+    height: 250 vh;
+    background-size: cover;
+    background-position: center;
+    
+
+}
   .hero h1 {
     font-size: 2rem;
   }
@@ -493,5 +406,3 @@ a{
     font-size: 1rem;
   }
 }
-
-
